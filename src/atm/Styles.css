@@ -1,0 +1,34 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+
+.root{
+    -fx-border-color: #3300ff ;
+    -fx-border-width: 4 ;
+    -fx-font-size: 11pt;
+    -fx-font-family: "Serif";
+    -fx-background-color: #0066ff;
+}
+.loginbtn{
+    -fx-background-color: #66cc00;
+    -fx-font-weight: bold;
+    -fx-background-radius: 16px;
+}
+
+.loginbtn:hover{
+    -fx-background-color: #00cc00;
+    -fx-effect: dropshadow( one-pass-box , black , 8 , 0.0 , 2 , 0 );   
+}
+
+.cancelbtn{
+    -fx-background-color: #ff3333;
+    -fx-font-weight: bold;
+    -fx-background-radius: 16px;
+}
+
+.cancelbtn:hover{
+    -fx-background-color: #ee0000;
+    -fx-effect: dropshadow( one-pass-box , black , 8 , 0.0 , 2 , 0 );
+}
